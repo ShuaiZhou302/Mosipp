@@ -12,7 +12,10 @@
 namespace rzq{
 class P_SIPP {
 public:
-    int Solve(std::vector<long> start, std::vector<long> goal, basic::Grid* graph);
+    int Solve(std::vector<long> start, std::vector<long> goal, basic::Grid* graph, long max);
+    double get_runtime(){return runtime;}
+    long get_soc(){return soc;}
+    long get_makespan(){return makespan;}
 
 private:
     basic::Grid* _graph;
@@ -21,6 +24,7 @@ private:
     long soc;
     long makespan;
     double runtime;
+
 
 
 

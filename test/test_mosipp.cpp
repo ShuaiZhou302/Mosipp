@@ -9,11 +9,11 @@
 
 
 int ToyEg();
-
+/*
 int main() {
   ToyEg();
   return 0;
-};
+};*/
 
 
 int ToyEg() {

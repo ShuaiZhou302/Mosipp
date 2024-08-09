@@ -11,6 +11,7 @@
 #include <sstream>
 #include <iomanip> // Include this header for std::fixed and std::setprecision
 #include <fstream> // Include this header for file operations
+#include "Priority-sipp.hpp"
 
 
 int emptylimit = 450;
@@ -115,53 +116,35 @@ int LoadScenarios(std::string filePath, int n, std::vector<long>* starts, std::v
 }
 int Test_P_SIPP() {
     std::cout << "####### Moving ai test Begin #######" << std::endl;
-    std::string MapPath = "C:/Users/David Zhou/Documents/GitHub/public_LSRP/data/maps/den520d.map";
-    std::ofstream output_file("C:/Users/David Zhou/Documents/GitHub/public_LSRP/-den520-baseline1.txt");
+    std::string MapPath = "C:/Users/David Zhou/Documents/GitHub/Mosipp/data/maps/empty-16-16.map";
+    std::ofstream output_file("C:/Users/David Zhou/Documents/GitHub/Mosipp/data/result/p_sipp-den520-baseline1.txt");
+
+    rzq::basic::Grid g;
+    LoadMap_MovingAI(MapPath, &g);
 
     if (!output_file.is_open()) {
         std::cerr << "Failed to open the file." << std::endl;
         return -1;
     }
 
-    for (int n = ; n <= 1000; n += 50) {
+    for (int n = 1; n <= 1; n += 5) {
         int success_count = 0;
         output_file << "n: " << n << std::endl;
 
         for (int i = 1; i <= 25; ++i) {
-            std::string ScenPath = R"(C:/Users/David Zhou/Documents/GitHub/public_LSRP/data/scen/den520d-scen-random/den520d-random-)" + std::to_string(i) + ".scen";
-            raplab::Grid2d g;
-            std::vector<std::vector<double>> occupancy_grid;
-            raplab::LoadMap_MovingAI(MapPath, &occupancy_grid);
-            g.SetOccuGridPtr(&occupancy_grid);
-            double time_limit = 30;
-
+            std::string ScenPath = R"(C:\Users\David Zhou\Documents\GitHub\Mosipp\data\scen\empty-16-16-scen-random\empty-16-16-random-)" + std::to_string(i) + ".scen";
             std::vector<long> starts;
             std::vector<long> goals;
-            raplab::LoadScenarios(ScenPath, n, &starts, &goals);
-            raplab::Lsrp planner;
-            planner.SetGraphPtr(&g);
-            std::vector<double> duration(starts.size(), 1);
-            //std::vector<double> duration(starts.size());
-            //std::vector<double> settings = {0.8, 2.2, 2.7, 4.3, 5}; // 设置新的序列
-            //for (size_t j = 0; j < duration.size(); ++j) {
-            //    duration[j] = settings[j % settings.size()]; // 循环赋值
-            //}
-            /*
-            for (size_t j = 0; j < duration.size(); ++j) {
-                duration[j] = (j % 5) + 1;
-            }*/
-            planner.Setduration(duration);
-            planner.Solve(starts, goals, time_limit, 5.0);
-            auto soc = planner.re_soc();
-            auto makespan = planner.re_makespan();
-            auto runtime = planner.GetRuntime();
+            LoadScenarios(ScenPath, n, &starts, &goals);
+            rzq::P_SIPP planner;
+            int result = planner.Solve(starts,goals,&g,emptylimit);
 
-            if (runtime <= 30) {
+            if (result) {
                 ++success_count;
                 output_file << "Solution found: true" << std::endl;
-                output_file << "Runtime: " << runtime << std::endl;
-                output_file << "Makespan: " << makespan << std::endl;
-                output_file << "Soc: " << std::fixed << std::setprecision(2) << soc << std::endl;
+                output_file << "Runtime: " << planner.get_runtime() << std::endl;
+                output_file << "Makespan: " << planner.get_makespan() << std::endl;
+                output_file << "Soc: " << std::fixed << std::setprecision(2) << planner.get_soc() << std::endl;
             } else {
                 output_file << "Solution found: false" << std::endl;
                 output_file << "Runtime: 0" << std::endl;
@@ -179,6 +162,7 @@ int Test_P_SIPP() {
     return 1;
 }
 int main(){
+    Test_P_SIPP();
     return 0;
 };
 

@@ -53,7 +53,7 @@ int rzq::P_SIPP::Solve(std::vector<long> start, std::vector<long> goal, rzq::bas
                 auto& path = res.paths[k];
                 auto& times = res.times[k];
                 // first node constrain
-                for (long t = times[0]; t < times[1]; ++t) {
+                for (long t = times[0]; t <= times[1]; ++t) {
                     node_constraints.emplace_back(std::vector<long>({path[0], t}));
                 }
 

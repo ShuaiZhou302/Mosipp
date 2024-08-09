@@ -116,8 +116,8 @@ int LoadScenarios(std::string filePath, int n, std::vector<long>* starts, std::v
 }
 int Test_P_SIPP() {
     std::cout << "####### Moving ai test Begin #######" << std::endl;
-    std::string MapPath = "C:/Users/David Zhou/Documents/GitHub/Mosipp/data/maps/empty-16-16.map";
-    std::ofstream output_file("C:/Users/David Zhou/Documents/GitHub/Mosipp/data/result/p_sipp-den520-baseline1.txt");
+    std::string MapPath = "/home/david/文档/GitHub/Mosipp/data/maps/empty-16-16.map";
+    std::ofstream output_file("/home/david/文档/GitHub/Mosipp/data/result/p_sipp-den520-baseline1.txt");
 
     rzq::basic::Grid g;
     LoadMap_MovingAI(MapPath, &g);
@@ -127,12 +127,12 @@ int Test_P_SIPP() {
         return -1;
     }
 
-    for (int n = 1; n <= 1; n += 5) {
+    for (int n = 1; n <= 5; n += 4) {
         int success_count = 0;
         output_file << "n: " << n << std::endl;
 
         for (int i = 1; i <= 25; ++i) {
-            std::string ScenPath = R"(C:\Users\David Zhou\Documents\GitHub\Mosipp\data\scen\empty-16-16-scen-random\empty-16-16-random-)" + std::to_string(i) + ".scen";
+            std::string ScenPath = R"(/home/david/文档/GitHub/Mosipp/data/scen/empty-16-16-scen-random/empty-16-16-random-)" + std::to_string(i) + ".scen";
             std::vector<long> starts;
             std::vector<long> goals;
             LoadScenarios(ScenPath, n, &starts, &goals);

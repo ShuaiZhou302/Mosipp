@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mosipp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosipp">
+				<Option output="/home/david/文档/GitHub/Mosipp/cmake-build-debug/libmosipp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/文档/GitHub/Mosipp/DIRECTORY"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include/mosipp"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 mosipp"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosipp/fast">
+				<Option output="/home/david/文档/GitHub/Mosipp/cmake-build-debug/libmosipp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/文档/GitHub/Mosipp/DIRECTORY"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include/mosipp"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 mosipp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_mosipp">
+				<Option output="/home/david/文档/GitHub/Mosipp/cmake-build-debug/test_mosipp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/文档/GitHub/Mosipp/DIRECTORY"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include/mosipp"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_mosipp"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_mosipp/fast">
+				<Option output="/home/david/文档/GitHub/Mosipp/cmake-build-debug/test_mosipp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/文档/GitHub/Mosipp/DIRECTORY"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include/mosipp"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_mosipp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_movingai">
+				<Option output="/home/david/文档/GitHub/Mosipp/cmake-build-debug/test_movingai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/文档/GitHub/Mosipp/DIRECTORY"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include/mosipp"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_movingai"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_movingai/fast">
+				<Option output="/home/david/文档/GitHub/Mosipp/cmake-build-debug/test_movingai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/文档/GitHub/Mosipp/DIRECTORY"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include/mosipp"/>
+					<Add directory="/home/david/文档/GitHub/Mosipp/include"/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_movingai/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/david/文档/GitHub/Mosipp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/david/文档/GitHub/Mosipp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/Priority-sipp.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/avltree.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/dijkstra.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/graph.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/graph_io.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/mosipp.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/source/mospp_util.cpp">
+			<Option target="mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/test/test_mosipp.cpp">
+			<Option target="test_mosipp"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/test/test_movingai.cpp">
+			<Option target="test_movingai"/>
+		</Unit>
+		<Unit filename="/home/david/文档/GitHub/Mosipp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

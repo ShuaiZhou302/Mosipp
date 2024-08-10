@@ -1,0 +1,5 @@
+/home/david/文档/GitHub/Mosipp/cmake-build-debug/CMakeFiles/mosipp.dir
+/home/david/文档/GitHub/Mosipp/cmake-build-debug/CMakeFiles/test_mosipp.dir
+/home/david/文档/GitHub/Mosipp/cmake-build-debug/CMakeFiles/test_movingai.dir
+/home/david/文档/GitHub/Mosipp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/david/文档/GitHub/Mosipp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

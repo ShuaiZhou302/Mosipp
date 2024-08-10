@@ -44,6 +44,10 @@ int rzq::P_SIPP::Solve(std::vector<long> start, std::vector<long> goal, rzq::bas
             for (auto iter : res.paths) {
                 long k = iter.first; // id of a Pareto-optipmal solution
                 for (auto yy : res.costs[k]) {
+                    if (yy > max)
+                    {
+                        return 0;
+                    }
                     soc += yy;
                     if (yy > makespan) {
                         makespan = yy;
@@ -58,14 +62,19 @@ int rzq::P_SIPP::Solve(std::vector<long> start, std::vector<long> goal, rzq::bas
                 }
 
                 // tail node constrain
-                for (long t = times.back() - cost; t <= max; ++t) {
+                for (long t = times.back(); t <= max; ++t) {
                     node_constraints.emplace_back(std::vector<long>({path.back(), t}));
                 }
-
-                // 中间节点约束
-                for (size_t i = 1; i < path.size() - 1; ++i) {
-                    for (long t = times[i] - cost; t <= times[i + 1]; ++t) {
-                        node_constraints.emplace_back(std::vector<long>({path[i], t}));
+                if (times.size()>2)
+                {
+                    for (long t = times[1]; t <= times[2]; ++t) {
+                        node_constraints.emplace_back(std::vector<long>({path[1], t}));
+                    }
+                    // 中间节点约束
+                    for (size_t i = 2; i < path.size() - 1; ++i) {
+                        for (long t = times[i]- cost; t <= times[i + 1]; ++t) {
+                            node_constraints.emplace_back(std::vector<long>({path[i], t}));
+                        }
                     }
                 }
 

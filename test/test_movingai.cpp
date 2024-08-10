@@ -14,9 +14,9 @@
 #include "Priority-sipp.hpp"
 
 
-int emptylimit = 450;
-int roomlimit = 5000;
-int denlimit = 900;
+int emptylimit = 500;
+int roomlimit = 5500;
+int denlimit = 1000;
 int warehouse = 3000;
 
 int LoadMap_MovingAI(std::string map_file_path, rzq::basic::Grid* output) {
@@ -116,8 +116,8 @@ int LoadScenarios(std::string filePath, int n, std::vector<long>* starts, std::v
 }
 int Test_P_SIPP() {
     std::cout << "####### Moving ai test Begin #######" << std::endl;
-    std::string MapPath = "/home/david/文档/GitHub/Mosipp/data/maps/empty-16-16.map";
-    std::ofstream output_file("/home/david/文档/GitHub/Mosipp/data/result/p_sipp-den520-baseline1.txt");
+    std::string MapPath = "/home/david/文档/GitHub/Mosipp/data/maps/warehouse-10-20-10-2-1.map";
+    std::ofstream output_file("/home/david/文档/GitHub/Mosipp/data/result/p_sipp-warehouse-baseline1-results.txt");
 
     rzq::basic::Grid g;
     LoadMap_MovingAI(MapPath, &g);
@@ -127,17 +127,17 @@ int Test_P_SIPP() {
         return -1;
     }
 
-    for (int n = 1; n <= 5; n += 4) {
+    for (int n = 150; n <= 600; n += 50) {
         int success_count = 0;
         output_file << "n: " << n << std::endl;
 
         for (int i = 1; i <= 25; ++i) {
-            std::string ScenPath = R"(/home/david/文档/GitHub/Mosipp/data/scen/empty-16-16-scen-random/empty-16-16-random-)" + std::to_string(i) + ".scen";
+            std::string ScenPath = R"(/home/david/文档/GitHub/Mosipp/data/scen/warehouse-161-63-scen-random/warehouse-10-20-10-2-1-random-)" + std::to_string(i) + ".scen";
             std::vector<long> starts;
             std::vector<long> goals;
             LoadScenarios(ScenPath, n, &starts, &goals);
             rzq::P_SIPP planner;
-            int result = planner.Solve(starts,goals,&g,emptylimit);
+            int result = planner.Solve(starts,goals,&g,denlimit);
 
             if (result) {
                 ++success_count;
@@ -161,8 +161,27 @@ int Test_P_SIPP() {
     std::cout << "####### Moving ai test End #######" << std::endl;
     return 1;
 }
+int simple_TEST()
+{
+    // static environment
+  rzq::basic::Grid static_world; // static obstacles appears in this 2d grid.
+  int r = 3; // rows (y)
+  int c = 3; // columns (x)
+  static_world.Resize(r,c);
+    static_world.Set(1,0,1); // set grid[y=1,x=1] = 1, a static obstacle.
+    static_world.Set(2,0,1); // set grid[y=1,x=1] = 1, a static obstacle.
+    static_world.Set(1,2,1); // set grid[y=1,x=1] = 1, a static obstacle.
+    static_world.Set(2,2,1); // set grid[y=1,x=1] = 1, a static obstacle.
+  std::vector<long> starts{1,0};
+  std::vector<long> goals{4,7};
+  rzq::P_SIPP planner;
+  int result = planner.Solve(starts,goals,&static_world,10);
+  std::cout<<result<<std::endl;
+  return 1;
+}
 int main(){
     Test_P_SIPP();
+    //simple_TEST();
     return 0;
 };
 

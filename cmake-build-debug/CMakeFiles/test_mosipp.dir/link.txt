@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++0x  -g -rdynamic CMakeFiles/test_mosipp.dir/test/test_mosipp.cpp.o -o test_mosipp  -Wl,-rpath,/home/david/文档/GitHub/Mosipp/cmake-build-debug libmosipp.so 

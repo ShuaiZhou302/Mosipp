@@ -1,0 +1,816 @@
+n: 1
+Solution found: true
+Runtime: 0
+Makespan: 82
+Soc: 82
+Solution found: true
+Runtime: 0.00
+Makespan: 92
+Soc: 92
+Solution found: true
+Runtime: 0.00
+Makespan: 61
+Soc: 61
+Solution found: true
+Runtime: 0.00
+Makespan: 68
+Soc: 68
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 127
+Solution found: true
+Runtime: 0.00
+Makespan: 71
+Soc: 71
+Solution found: true
+Runtime: 0.00
+Makespan: 19
+Soc: 19
+Solution found: true
+Runtime: 0.00
+Makespan: 2
+Soc: 2
+Solution found: true
+Runtime: 0.00
+Makespan: 36
+Soc: 36
+Solution found: true
+Runtime: 0.00
+Makespan: 87
+Soc: 87
+Solution found: true
+Runtime: 0.00
+Makespan: 36
+Soc: 36
+Solution found: true
+Runtime: 0.00
+Makespan: 48
+Soc: 48
+Solution found: true
+Runtime: 0.00
+Makespan: 54
+Soc: 54
+Solution found: true
+Runtime: 0.00
+Makespan: 73
+Soc: 73
+Solution found: true
+Runtime: 0.00
+Makespan: 88
+Soc: 88
+Solution found: true
+Runtime: 0.00
+Makespan: 68
+Soc: 68
+Solution found: true
+Runtime: 0.00
+Makespan: 78
+Soc: 78
+Solution found: true
+Runtime: 0.00
+Makespan: 66
+Soc: 66
+Solution found: true
+Runtime: 0.00
+Makespan: 27
+Soc: 27
+Solution found: true
+Runtime: 0.00
+Makespan: 65
+Soc: 65
+Solution found: true
+Runtime: 0.00
+Makespan: 44
+Soc: 44
+Solution found: true
+Runtime: 0.00
+Makespan: 25
+Soc: 25
+Solution found: true
+Runtime: 0.00
+Makespan: 36
+Soc: 36
+Solution found: true
+Runtime: 0.00
+Makespan: 42
+Soc: 42
+Solution found: true
+Runtime: 0.00
+Makespan: 38
+Soc: 38
+Success rate: 100.00%
+n: 5
+Solution found: true
+Runtime: 0.00
+Makespan: 82
+Soc: 241
+Solution found: true
+Runtime: 0.00
+Makespan: 92
+Soc: 346
+Solution found: true
+Runtime: 0.00
+Makespan: 82
+Soc: 322
+Solution found: true
+Runtime: 0.00
+Makespan: 73
+Soc: 327
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 381
+Solution found: true
+Runtime: 0.00
+Makespan: 140
+Soc: 365
+Solution found: true
+Runtime: 0.00
+Makespan: 131
+Soc: 402
+Solution found: true
+Runtime: 0.00
+Makespan: 125
+Soc: 303
+Solution found: true
+Runtime: 0.00
+Makespan: 119
+Soc: 334
+Solution found: true
+Runtime: 0.00
+Makespan: 92
+Soc: 387
+Solution found: true
+Runtime: 0.00
+Makespan: 81
+Soc: 242
+Solution found: true
+Runtime: 0.00
+Makespan: 84
+Soc: 265
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 348
+Solution found: true
+Runtime: 0.00
+Makespan: 114
+Soc: 359
+Solution found: true
+Runtime: 0.00
+Makespan: 88
+Soc: 199
+Solution found: true
+Runtime: 0.00
+Makespan: 68
+Soc: 261
+Solution found: true
+Runtime: 0.00
+Makespan: 78
+Soc: 278
+Solution found: true
+Runtime: 0.00
+Makespan: 94
+Soc: 373
+Solution found: true
+Runtime: 0.00
+Makespan: 50
+Soc: 139
+Solution found: true
+Runtime: 0.00
+Makespan: 86
+Soc: 297
+Solution found: true
+Runtime: 0.00
+Makespan: 76
+Soc: 278
+Solution found: true
+Runtime: 0.00
+Makespan: 86
+Soc: 277
+Solution found: true
+Runtime: 0.00
+Makespan: 104
+Soc: 301
+Solution found: true
+Runtime: 0.00
+Makespan: 84
+Soc: 335
+Solution found: true
+Runtime: 0.00
+Makespan: 119
+Soc: 339
+Success rate: 100.00%
+n: 9
+Solution found: true
+Runtime: 0.00
+Makespan: 82
+Soc: 452
+Solution found: true
+Runtime: 0.00
+Makespan: 92
+Soc: 445
+Solution found: true
+Runtime: 0.00
+Makespan: 92
+Soc: 581
+Solution found: true
+Runtime: 0.00
+Makespan: 73
+Soc: 514
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 631
+Solution found: true
+Runtime: 0.00
+Makespan: 140
+Soc: 780
+Solution found: true
+Runtime: 0.00
+Makespan: 131
+Soc: 720
+Solution found: true
+Runtime: 0.00
+Makespan: 125
+Soc: 516
+Solution found: true
+Runtime: 0.00
+Makespan: 119
+Soc: 519
+Solution found: true
+Runtime: 0.00
+Makespan: 112
+Soc: 631
+Solution found: true
+Runtime: 0.00
+Makespan: 116
+Soc: 481
+Solution found: true
+Runtime: 0.00
+Makespan: 95
+Soc: 525
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 544
+Solution found: true
+Runtime: 0.00
+Makespan: 114
+Soc: 606
+Solution found: true
+Runtime: 0.00
+Makespan: 90
+Soc: 521
+Solution found: true
+Runtime: 0.00
+Makespan: 109
+Soc: 528
+Solution found: true
+Runtime: 0.00
+Makespan: 78
+Soc: 484
+Solution found: true
+Runtime: 0.00
+Makespan: 94
+Soc: 602
+Solution found: true
+Runtime: 0.00
+Makespan: 68
+Soc: 355
+Solution found: true
+Runtime: 0.00
+Makespan: 100
+Soc: 611
+Solution found: true
+Runtime: 0.00
+Makespan: 96
+Soc: 514
+Solution found: true
+Runtime: 0.00
+Makespan: 93
+Soc: 491
+Solution found: true
+Runtime: 0.00
+Makespan: 109
+Soc: 512
+Solution found: true
+Runtime: 0.00
+Makespan: 84
+Soc: 435
+Solution found: true
+Runtime: 0.00
+Makespan: 119
+Soc: 626
+Success rate: 100.00%
+n: 13
+Solution found: true
+Runtime: 0.00
+Makespan: 97
+Soc: 680
+Solution found: true
+Runtime: 0.00
+Makespan: 92
+Soc: 689
+Solution found: true
+Runtime: 0.00
+Makespan: 98
+Soc: 737
+Solution found: true
+Runtime: 0.00
+Makespan: 91
+Soc: 813
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 793
+Solution found: true
+Runtime: 0.00
+Makespan: 140
+Soc: 958
+Solution found: true
+Runtime: 0.00
+Makespan: 131
+Soc: 1038
+Solution found: true
+Runtime: 0.00
+Makespan: 125
+Soc: 831
+Solution found: true
+Runtime: 0.00
+Makespan: 133
+Soc: 763
+Solution found: true
+Runtime: 0.00
+Makespan: 112
+Soc: 907
+Solution found: true
+Runtime: 0.00
+Makespan: 116
+Soc: 638
+Solution found: true
+Runtime: 0.00
+Makespan: 101
+Soc: 818
+Solution found: true
+Runtime: 0.00
+Makespan: 127
+Soc: 716
+Solution found: true
+Runtime: 0.00
+Makespan: 114
+Soc: 868
+Solution found: true
+Runtime: 0.00
+Makespan: 94
+Soc: 770
+Solution found: true
+Runtime: 0.00
+Makespan: 109
+Soc: 765
+Solution found: true
+Runtime: 0.00
+Makespan: 119
+Soc: 847
+Solution found: true
+Runtime: 0.00
+Makespan: 94
+Soc: 860
+Solution found: true
+Runtime: 0.00
+Makespan: 89
+Soc: 609
+Solution found: true
+Runtime: 0.00
+Makespan: 100
+Soc: 865
+Solution found: true
+Runtime: 0.00
+Makespan: 98
+Soc: 823
+Solution found: true
+Runtime: 0.00
+Makespan: 93
+Soc: 658
+Solution found: true
+Runtime: 0.00
+Makespan: 109
+Soc: 745
+Solution found: true
+Runtime: 0.00
+Makespan: 84
+Soc: 649
+Solution found: true
+Runtime: 0.00
+Makespan: 119
+Soc: 761
+Success rate: 100.00%
+n: 17
+Solution found: true
+Runtime: 1.00
+Makespan: 97
+Soc: 867
+Solution found: true
+Runtime: 1.00
+Makespan: 103
+Soc: 991
+Solution found: true
+Runtime: 1.00
+Makespan: 98
+Soc: 1008
+Solution found: true
+Runtime: 1.00
+Makespan: 91
+Soc: 1058
+Solution found: true
+Runtime: 1.00
+Makespan: 127
+Soc: 996
+Solution found: true
+Runtime: 1.00
+Makespan: 140
+Soc: 1134
+Solution found: true
+Runtime: 1.00
+Makespan: 131
+Soc: 1324
+Solution found: true
+Runtime: 1.00
+Makespan: 125
+Soc: 1070
+Solution found: true
+Runtime: 1.00
+Makespan: 133
+Soc: 997
+Solution found: true
+Runtime: 1.00
+Makespan: 135
+Soc: 1257
+Solution found: true
+Runtime: 1.00
+Makespan: 119
+Soc: 1001
+Solution found: true
+Runtime: 1.00
+Makespan: 101
+Soc: 956
+Solution found: true
+Runtime: 1.00
+Makespan: 127
+Soc: 957
+Solution found: true
+Runtime: 1.00
+Makespan: 114
+Soc: 1161
+Solution found: true
+Runtime: 1.00
+Makespan: 103
+Soc: 999
+Solution found: true
+Runtime: 1.00
+Makespan: 109
+Soc: 957
+Solution found: true
+Runtime: 1.00
+Makespan: 119
+Soc: 1061
+Solution found: true
+Runtime: 1.00
+Makespan: 94
+Soc: 1104
+Solution found: true
+Runtime: 1.00
+Makespan: 89
+Soc: 826
+Solution found: true
+Runtime: 1.00
+Makespan: 100
+Soc: 1076
+Solution found: true
+Runtime: 1.00
+Makespan: 98
+Soc: 1115
+Solution found: true
+Runtime: 1.00
+Makespan: 106
+Soc: 901
+Solution found: true
+Runtime: 1.00
+Makespan: 109
+Soc: 1023
+Solution found: true
+Runtime: 1.00
+Makespan: 86
+Soc: 904
+Solution found: true
+Runtime: 1.00
+Makespan: 119
+Soc: 1094
+Success rate: 100.00%
+n: 21
+Solution found: true
+Runtime: 1.00
+Makespan: 101
+Soc: 1157
+Solution found: true
+Runtime: 1.00
+Makespan: 103
+Soc: 1242
+Solution found: true
+Runtime: 1.00
+Makespan: 131
+Soc: 1313
+Solution found: true
+Runtime: 1.00
+Makespan: 126
+Soc: 1278
+Solution found: true
+Runtime: 1.00
+Makespan: 132
+Soc: 1341
+Solution found: true
+Runtime: 1.00
+Makespan: 140
+Soc: 1354
+Solution found: true
+Runtime: 1.00
+Makespan: 131
+Soc: 1607
+Solution found: true
+Runtime: 1.00
+Makespan: 125
+Soc: 1306
+Solution found: true
+Runtime: 1.00
+Makespan: 133
+Soc: 1217
+Solution found: true
+Runtime: 1.00
+Makespan: 135
+Soc: 1479
+Solution found: true
+Runtime: 1.00
+Makespan: 119
+Soc: 1231
+Solution found: true
+Runtime: 1.00
+Makespan: 105
+Soc: 1315
+Solution found: true
+Runtime: 1.00
+Makespan: 127
+Soc: 1100
+Solution found: true
+Runtime: 1.00
+Makespan: 114
+Soc: 1425
+Solution found: true
+Runtime: 1.00
+Makespan: 114
+Soc: 1256
+Solution found: true
+Runtime: 1.00
+Makespan: 124
+Soc: 1262
+Solution found: true
+Runtime: 1.00
+Makespan: 119
+Soc: 1259
+Solution found: true
+Runtime: 1.00
+Makespan: 110
+Soc: 1366
+Solution found: true
+Runtime: 1.00
+Makespan: 131
+Soc: 1172
+Solution found: true
+Runtime: 1.00
+Makespan: 100
+Soc: 1284
+Solution found: true
+Runtime: 1.00
+Makespan: 133
+Soc: 1502
+Solution found: true
+Runtime: 1.00
+Makespan: 124
+Soc: 1189
+Solution found: true
+Runtime: 1.00
+Makespan: 109
+Soc: 1235
+Solution found: true
+Runtime: 1.00
+Makespan: 86
+Soc: 1144
+Solution found: true
+Runtime: 1.00
+Makespan: 125
+Soc: 1430
+Success rate: 100.00%
+n: 25
+Solution found: true
+Runtime: 2.00
+Makespan: 110
+Soc: 1460
+Solution found: true
+Runtime: 2.00
+Makespan: 103
+Soc: 1482
+Solution found: true
+Runtime: 2.00
+Makespan: 131
+Soc: 1529
+Solution found: true
+Runtime: 2.00
+Makespan: 126
+Soc: 1539
+Solution found: true
+Runtime: 2.00
+Makespan: 132
+Soc: 1690
+Solution found: true
+Runtime: 2.00
+Makespan: 140
+Soc: 1669
+Solution found: true
+Runtime: 2.00
+Makespan: 131
+Soc: 1815
+Solution found: true
+Runtime: 2.00
+Makespan: 125
+Soc: 1488
+Solution found: true
+Runtime: 2.00
+Makespan: 133
+Soc: 1495
+Solution found: true
+Runtime: 2.00
+Makespan: 135
+Soc: 1723
+Solution found: true
+Runtime: 2.00
+Makespan: 119
+Soc: 1439
+Solution found: true
+Runtime: 2.00
+Makespan: 105
+Soc: 1554
+Solution found: true
+Runtime: 2.00
+Makespan: 127
+Soc: 1357
+Solution found: true
+Runtime: 2.00
+Makespan: 115
+Soc: 1654
+Solution found: true
+Runtime: 2.00
+Makespan: 114
+Soc: 1454
+Solution found: true
+Runtime: 2.00
+Makespan: 124
+Soc: 1520
+Solution found: true
+Runtime: 2.00
+Makespan: 129
+Soc: 1562
+Solution found: true
+Runtime: 2.00
+Makespan: 138
+Soc: 1743
+Solution found: true
+Runtime: 2.00
+Makespan: 131
+Soc: 1334
+Solution found: true
+Runtime: 2.00
+Makespan: 100
+Soc: 1528
+Solution found: true
+Runtime: 2.00
+Makespan: 133
+Soc: 1752
+Solution found: true
+Runtime: 2.00
+Makespan: 124
+Soc: 1434
+Solution found: true
+Runtime: 2.00
+Makespan: 109
+Soc: 1416
+Solution found: true
+Runtime: 2.00
+Makespan: 86
+Soc: 1408
+Solution found: true
+Runtime: 2.00
+Makespan: 125
+Soc: 1662
+Success rate: 100.00%
+n: 29
+Solution found: true
+Runtime: 2.00
+Makespan: 110
+Soc: 1658
+Solution found: true
+Runtime: 3.00
+Makespan: 103
+Soc: 1707
+Solution found: true
+Runtime: 2.00
+Makespan: 131
+Soc: 1740
+Solution found: true
+Runtime: 3.00
+Makespan: 126
+Soc: 1704
+Solution found: true
+Runtime: 3.00
+Makespan: 132
+Soc: 1945
+Solution found: true
+Runtime: 3.00
+Makespan: 140
+Soc: 1947
+Solution found: true
+Runtime: 3.00
+Makespan: 131
+Soc: 2139
+Solution found: true
+Runtime: 3.00
+Makespan: 125
+Soc: 1756
+Solution found: true
+Runtime: 3.00
+Makespan: 133
+Soc: 1713
+Solution found: true
+Runtime: 3.00
+Makespan: 135
+Soc: 1982
+Solution found: true
+Runtime: 3.00
+Makespan: 123
+Soc: 1790
+Solution found: true
+Runtime: 3.00
+Makespan: 105
+Soc: 1755
+Solution found: true
+Runtime: 3.00
+Makespan: 139
+Soc: 1645
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: true
+Runtime: 2.00
+Makespan: 114
+Soc: 1637
+Solution found: true
+Runtime: 3.00
+Makespan: 124
+Soc: 1852
+Solution found: true
+Runtime: 3.00
+Makespan: 129
+Soc: 1916
+Solution found: true
+Runtime: 3.00
+Makespan: 138
+Soc: 1984
+Solution found: true
+Runtime: 3.00
+Makespan: 131
+Soc: 1658
+Solution found: true
+Runtime: 3.00
+Makespan: 100
+Soc: 1700
+Solution found: true
+Runtime: 3.00
+Makespan: 133
+Soc: 1979
+Solution found: true
+Runtime: 2.00
+Makespan: 137
+Soc: 1655
+Solution found: true
+Runtime: 2.00
+Makespan: 127
+Soc: 1774
+Solution found: true
+Runtime: 3.00
+Makespan: 94
+Soc: 1640
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Success rate: 92.00%

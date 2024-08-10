@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mosipp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mosipp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mosipp-Debug-82e87f344f6bed2f623c.json",
+					"name" : "mosipp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mosipp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mosipp-Debug-d39fcb69a1193776427a.json",
+					"name" : "test_mosipp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_movingai::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_movingai-Debug-50207fa03a04d90c3444.json",
+					"name" : "test_movingai",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/david/\u6587\u6863/GitHub/Mosipp/cmake-build-debug",
+		"source" : "/home/david/\u6587\u6863/GitHub/Mosipp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -2650,3 +2650,309 @@ Runtime: 8.00
 Makespan: 173
 Soc: 9144
 Success rate: 100.00%
+n: 150
+Solution found: true
+Runtime: 18
+Makespan: 198
+Soc: 12819
+Solution found: true
+Runtime: 19.00
+Makespan: 194
+Soc: 12546
+Solution found: true
+Runtime: 19.00
+Makespan: 179
+Soc: 12699
+Solution found: true
+Runtime: 16.00
+Makespan: 205
+Soc: 11270
+Solution found: true
+Runtime: 16.00
+Makespan: 198
+Soc: 12396
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: true
+Runtime: 16.00
+Makespan: 203
+Soc: 11910
+Solution found: true
+Runtime: 19.00
+Makespan: 189
+Soc: 11641
+Solution found: true
+Runtime: 16.00
+Makespan: 190
+Soc: 12993
+Solution found: true
+Runtime: 16.00
+Makespan: 194
+Soc: 12574
+Solution found: true
+Runtime: 16.00
+Makespan: 185
+Soc: 12577
+Solution found: true
+Runtime: 16.00
+Makespan: 182
+Soc: 11895
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: true
+Runtime: 17.00
+Makespan: 187
+Soc: 12635
+Solution found: true
+Runtime: 19.00
+Makespan: 193
+Soc: 12090
+Solution found: true
+Runtime: 19.00
+Makespan: 194
+Soc: 12660
+Solution found: true
+Runtime: 19.00
+Makespan: 185
+Soc: 12325
+Solution found: true
+Runtime: 19.00
+Makespan: 186
+Soc: 11613
+Solution found: true
+Runtime: 19.00
+Makespan: 177
+Soc: 12229
+Solution found: true
+Runtime: 19.00
+Makespan: 175
+Soc: 12392
+Solution found: true
+Runtime: 19.00
+Makespan: 185
+Soc: 12722
+Solution found: true
+Runtime: 19.00
+Makespan: 181
+Soc: 12359
+Solution found: true
+Runtime: 19.00
+Makespan: 192
+Soc: 12906
+Solution found: true
+Runtime: 19.00
+Makespan: 212
+Soc: 13137
+Solution found: true
+Runtime: 19.00
+Makespan: 173
+Soc: 12649
+Success rate: 92.00%
+n: 200
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: true
+Runtime: 27.00
+Makespan: 214
+Soc: 16444
+Solution found: true
+Runtime: 27.00
+Makespan: 191
+Soc: 15492
+Solution found: true
+Runtime: 28.00
+Makespan: 190
+Soc: 16978
+Solution found: true
+Runtime: 27.00
+Makespan: 194
+Soc: 16369
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: true
+Runtime: 28.00
+Makespan: 185
+Soc: 16771
+Solution found: true
+Runtime: 27.00
+Makespan: 181
+Soc: 16330
+Solution found: true
+Runtime: 28.00
+Makespan: 192
+Soc: 16730
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: true
+Runtime: 28.00
+Makespan: 180
+Soc: 16719
+Success rate: 32.00%
+n: 250
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Solution found: false
+Runtime: 0
+Makespan: 0
+Soc: 0
+Success rate: 0.00%
